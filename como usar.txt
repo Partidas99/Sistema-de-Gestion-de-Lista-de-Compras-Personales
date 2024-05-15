@@ -1,0 +1,18 @@
+https://partidas99.pythonanywhere.com
+
+categoria
+Post y Put usan los siguientes parametros en formato JSON. {"nombre": valor} a la siguiente direccion https://partidas99.pythonanywhere.com/categoria
+Para el Delete y el Put se utliza el id de la categoria en el link de la siguiente forma https://partidas99.pythonanywhere.com/categoria/1
+para mostrar (Get) se utiliza solo el enlace  https://partidas99.pythonanywhere.com/categoria
+
+
+tienda
+Post y Put usan los siguientes parametros en formato JSON. {"nombre": valor, "correo": valor} a la siguiente direccion https://partidas99.pythonanywhere.com/tienda
+Para el Delete y el Put se utliza el id de la tienda en el link de la siguiente forma https://partidas99.pythonanywhere.com/tienda/1
+para mostrar (Get) se utiliza solo el enlace  https://partidas99.pythonanywhere.com/tienda
+
+
+producto
+Post y Put usan los siguientes parametros en formato JSON. {"nombre": valor, "cantidad": valor, "comprado": 0 o 1, "categoria_id": valor, "tienda_id": valor} a la siguiente direccion https://partidas99.pythonanywhere.com/tienda
+Para el Delete y el Put se utliza el id de la tienda en el link de la siguiente forma https://partidas99.pythonanywhere.com/tienda/1
+para mostrar (Get) se utiliza solo el enlace  https://partidas99.pythonanywhere.com/tienda
